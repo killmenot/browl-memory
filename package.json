@@ -1,0 +1,43 @@
+{
+  "name": "browl-memory",
+  "version": "0.1.0",
+  "description": "Browl db provider to persistence to memory",
+  "author": "Alexey Kucherenko",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/killmenot/browl-memory#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killmenot/browl-memory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/killmenot/browl-memory/issues"
+  },
+  "scripts": {
+    "lint": "eslint lib index.js",
+    "test": "NODE_ENV=test mocha",
+    "coverage": "nyc --reporter=html --reporter=text npm run test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "nyc": {
+    "all": true,
+    "include": [
+      "lib/*.js"
+    ]
+  },
+  "dependencies": {
+    "browl-util": "github:killmenot/browl-util",
+    "debug": "^4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "pre-commit": "^1.2.2"
+  }
+}
