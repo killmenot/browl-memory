@@ -78,7 +78,7 @@ describe('memory', () => {
 
   describe('#list', () => {
     it('should return empty when no file exists', () => {
-      const expected = '{}';
+      const expected = 'No configured instances.';
 
       const actual = db.list();
 
