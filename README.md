@@ -1,12 +1,14 @@
 # browl-memory
 
-[![Build Status](https://travis-ci.org/killmenot/browl-memory.svg?branch=master)](https://travis-ci.org/killmenot/browl-memory) [![Coverage Status](https://coveralls.io/repos/github/killmenot/browl-plugin-yaml/badge.svg?branch=master)](https://coveralls.io/github/killmenot/browl-memory?branch=master) [![Dependency Status](https://david-dm.org/killmenot/browl-memory.svg)](hhttps://david-dm.org/killmenot/browl-memory) [![npm version](https://img.shields.io/npm/v/browl-memory.svg)](https://www.npmjs.com/package/browl-memory)
+[![Build Status](https://travis-ci.org/killmenot/browl-memory.svg?branch=master)](https://travis-ci.org/killmenot/browl-memory) [![Coverage Status](https://coveralls.io/repos/github/killmenot/browl-memory/badge.svg?branch=master)](https://coveralls.io/github/killmenot/browl-memory?branch=master) [![Dependency Status](https://david-dm.org/killmenot/browl-memory.svg)](https://david-dm.org/killmenot/browl-memory) [![npm version](https://img.shields.io/npm/v/browl-memory.svg)](https://www.npmjs.com/package/browl-memory)
 
-Browl db provider to persistence to memory.
+Browl db provider to persistence to memory storage.
 
 ## LICENSE
 
     The MIT License (MIT)
+
+    Copyright (c) Alexey Kucherenko
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

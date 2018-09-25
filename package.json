@@ -1,7 +1,7 @@
 {
   "name": "browl-memory",
   "version": "0.1.0",
-  "description": "Browl db provider to persistence to memory",
+  "description": "Browl db provider to persistence to memory storage",
   "author": "Alexey Kucherenko",
   "main": "index.js",
   "license": "MIT",
@@ -30,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "browl-util": "github:killmenot/browl-util",
+    "browl-util": "^0.1.0",
     "debug": "^4.0.1"
   },
   "devDependencies": {
